@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:id="@+id/hello"
+     >
+
+
+
+    <TextView
+        android:layout_margin="110sp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+         android:layout_height="wrap_content"
+         android:textSize="23sp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+         android:id="@+id/showPopMenu"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="Pop Up Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="90sp"
+        android:backgroundTint="#01579B"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
